@@ -1,0 +1,12 @@
+{
+  "id": "s2-global-grid-calculator",
+  "pluginId": "s2-global-grid-calculator",
+  "version": "1.0.0",
+  "type": "native-code",
+  "entry": "handler.py",
+  "runtime": "python3",
+  "permissions": {
+    "network": ["localhost"],
+    "tools": ["calculate_s2_planetary_hexcode"]
+  }
+}

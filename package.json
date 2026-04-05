@@ -1,0 +1,22 @@
+{
+  "name": "s2-global-grid-calculator",
+  "version": "1.0.0",
+  "description": "S2-SWM Planetary Grid Resolution Engine. Converts global WGS84 or CGCS2000 geodetic coordinates into the absolute S2 6-Segment Millimeter Hex-Code, establishing the foundational address layer for spatial causal computing.",
+  "main": "handler.py",
+  "scripts": {
+    "start": "python3 handler.py"
+  },
+  "openclaw": {
+    "extensions": ["openclaw.plugin.json"],
+    "compat": {
+      "pluginApi": ">=3.22.0"
+    },
+    "build": {
+      "openclawVersion": "4.2.0"
+    },
+    "capabilities": ["spatial_addressing", "geodetic_conversion", "sssu_voxelization"]
+  },
+  "keywords": ["openclaw", "sssu", "wgs84", "cgcs2000", "spatial-computing", "taohuayuan"],
+  "author": "Space2.world (Miles Xiang)",
+  "license": "MIT"
+}
