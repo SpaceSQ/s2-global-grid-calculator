@@ -14,9 +14,25 @@
     "build": {
       "openclawVersion": "4.2.0"
     },
-    "capabilities": ["spatial_addressing", "geodetic_conversion", "sssu_voxelization"]
+    "capabilities": [
+      "spatial_addressing", 
+      "geodetic_conversion", 
+      "sssu_voxelization"
+    ],
+    "configSchema": {
+      "type": "object",
+      "required": [],
+      "properties": {}
+    }
   },
-  "keywords": ["openclaw", "sssu", "wgs84", "cgcs2000", "spatial-computing", "taohuayuan"],
+  "keywords": [
+    "openclaw", 
+    "sssu", 
+    "wgs84", 
+    "cgcs2000", 
+    "spatial-computing", 
+    "taohuayuan"
+  ],
   "author": "Space2.world (Miles Xiang)",
   "license": "MIT"
 }
